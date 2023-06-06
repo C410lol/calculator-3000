@@ -1,0 +1,84 @@
+body {
+    background: #171717;
+}
+
+* {
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+#title {
+    margin-top: 75px;
+    margin-left: 42%;
+    font-size: xx-large;
+    color: #D1D1D1;
+}
+
+#calculator {
+    width: 400px;
+    height: 400px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 100px;
+    border: #341948 solid 2.5px;
+    background: #2E2E2E;
+}
+
+#top_container {
+    display: grid;
+    grid-template-columns: 75% auto;
+    margin: 5px;
+}
+
+#display {
+    height: 67.5px;
+    margin: 2.5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 2.5px;
+    background: #D1D1D1;
+}
+
+#display p {
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: larger;
+    text-align: right;
+}
+
+#restart {
+    width: 92.5px;
+    height: 67.5px;
+    margin: 2.5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#keys {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5px;
+    border-radius: 2.5px;
+    font-size: larger;
+    cursor: pointer;
+    background: #341948;
+    color: #D1D1D1;
+}
+
+.btns:hover {
+    transform: scale(1.05, 1.05);
+    background: rgb(117, 117, 117, .5);
+}
+
+#restart, #division, #minus, #multiplication, #comma, #equals, #addition {
+    background: #A91B60;
+}
